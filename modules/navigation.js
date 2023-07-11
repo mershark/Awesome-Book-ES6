@@ -1,15 +1,14 @@
-function setDate() {
+export const setDate = () => {
   const today = new Date();
-  return today.toDateString();
-}
+  const date = today.toDateString();
+  document.getElementById('date').textContent = date;
+};
 
-function displaySection(section) {
+export const displaySection = (section) => {
   const sectionList = document.getElementById('list');
   const sectionForm = document.getElementById('form');
   const sectionContact = document.getElementById('contact');
   const heading = document.getElementById('title');
-  const date = document.getElementById('date');
-  date.textContent = setDate();
 
   switch (section) {
     case 'list':
@@ -36,6 +35,4 @@ function displaySection(section) {
     default:
       break;
   }
-}
-
-displaySection();
+};
