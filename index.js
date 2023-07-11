@@ -2,8 +2,6 @@ import Library from './modules/library.js';
 import displaySection from './modules/navigation.js';
 import currentDate from './modules/calendar.js';
 
-const _ = new Library();
-
 window.displaySection = displaySection;
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -15,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   navNew.addEventListener('click', () => displaySection('form'));
   navContact.addEventListener('click', () => displaySection('contact'));
 
+  new Library();
   displaySection('list');
   currentDate();
 });
