@@ -2,7 +2,7 @@ import Library from './modules/library.js';
 import displaySection from './modules/navigation.js';
 import currentDate from './modules/calendar.js';
 
-const library = new Library();
+const _ = new Library();
 
 window.displaySection = displaySection;
 
