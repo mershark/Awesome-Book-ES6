@@ -1,10 +1,10 @@
-import Library from './modules/library.js';
-import { displaySection, setDate } from './modules/navigation.js';
 
+import Library from './modules/library.js';
+import { displaySection } from './modules/navigation.js';
+import { Currentdate } from './modules/calendar.js';
 const library = new Library();
 
-window.displaySection = displaySection; // Make displaySection globally accessible
-window.setDate = setDate; // Make setDate globally accessible
+window.displaySection = displaySection;
 
 document.addEventListener('DOMContentLoaded', () => {
   const navList = document.getElementById('navList');
@@ -16,5 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
   navContact.addEventListener('click', () => displaySection('contact'));
 
   displaySection('list');
-  setDate();
+  Currentdate();
 });
+

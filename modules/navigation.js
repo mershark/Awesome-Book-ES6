@@ -1,9 +1,3 @@
-export const setDate = () => {
-  const today = new Date();
-  const date = today.toDateString();
-  document.getElementById('date').textContent = date;
-};
-
 export const displaySection = (section) => {
   const sectionList = document.getElementById('list');
   const sectionForm = document.getElementById('form');
