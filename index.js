@@ -2,7 +2,7 @@ import Library from './modules/library.js';
 import displaySection from './modules/navigation.js';
 import currentDate from './modules/calendar.js';
 
-// eslint-disable-next-line no-new
+// eslint-disable-next-line no-unused-vars
 const library = new Library();
 
 window.displaySection = displaySection;
