@@ -29,9 +29,9 @@
 - [📝 License](#license)
 
 
-# 📖 Awesome books (Pair Programming) <a name="about-project"></a>
+# 📖 Awesome books (ES6) <a name="about-project"></a>
 
-In this project, We built a basic website that allows users to add/remove books from a list. We achieved that by using JavaScript objects and arrays. We also dynamically modified the DOM and added some basic events.
+In this project, I created a simple website that enables users to manage a list of books. The functionality is implemented using JavaScript Classes, objects, and arrays. I utilized DOM manipulation techniques to dynamically update the webpage and added basic event handling.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,7 +67,7 @@ Any code editors
 
 Clone this repository to your desired folder by.
 - cd my-folder
-- git clone [https://github.com/noelfoka/Awesome-books.git]
+- git clone [https://github.com/mershark/Awesome-Book-ES6.git]
 - cd my-project
 
 
@@ -100,19 +100,11 @@ You can deploy this project by transferring the files in your local repository o
 - GitHub: [@githubhandle](https://github.com/mershark)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mershark/)
 
-👤 **Noel Foka**
-
-- GitHub: [@noelfoka](https://github.com/noelfoka)
-- Twitter: [@noelnomgne](https://twitter.com/noelnomgne)
-- LinkedIn: [noel-foka](https://www.linkedin.com/in/no%C3%ABl-nomgne-foka-063013231/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **A Navigation bar**
-- [ ] **Books list section**
-- [ ] **Add book form section**
-- [ ] **Contact info section**
+- [ ] **Update UI with pictures**
+- [ ] **Responsives of buttons**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
