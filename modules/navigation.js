@@ -1,4 +1,4 @@
-export const displaySection = (section) => {
+const displaySection = (section) => {
   const sectionList = document.getElementById('list');
   const sectionForm = document.getElementById('form');
   const sectionContact = document.getElementById('contact');
@@ -30,3 +30,5 @@ export const displaySection = (section) => {
       break;
   }
 };
+
+export default displaySection;
